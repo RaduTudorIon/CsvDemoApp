@@ -7,8 +7,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        string inputFile = @"C:\Users\radut\source\repos\CsvDemoApp\CsvDemoApp";
-        string outputFile = @"C:\Users\radut\source\repos\CsvDemoApp\CsvDemoApp";
+        string inputFile = @"";
+        string outputFile = @"";
 
         List<CustomerModel> outputRecords = new();
         using var reader = new StreamReader(inputFile);
