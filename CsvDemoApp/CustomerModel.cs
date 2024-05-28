@@ -8,7 +8,7 @@ public class CustomerModel
     public int Index { get; set; }
 
     [Name("User Id")]
-    public int UserId { get; set; }
+    public string UserId { get; set; }
 
     [Name("First Name")]
     public string FirstName { get; set; }
